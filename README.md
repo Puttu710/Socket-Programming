@@ -17,16 +17,13 @@ Specifications
 ----
 The system should incorporate the following commands:
 
-IndexGet: Request to display the files in the shared folder which is assumed to be the same directory as the code.
-
+1.  IndexGet: Request to display the files in the shared folder which is assumed to be the same directory as the code.
 Flags : shortlist, longlist
 
-FileHash: Indicates that the client wants to check if any of the files on the other end have been changed.
-
+2.  FileHash: Indicates that the client wants to check if any of the files on the other end have been changed.
 Flags: verify, checkall
 
-FileDownload: Used to download the files from the shared folder of connected users. In case no flag is mentioned TCP is considered as default.
-
+3.  FileDownload: Used to download the files from the shared folder of connected users. In case no flag is mentioned TCP is considered as default.
 Flags: TCP,UDP
 
 The given project is done in Python 2.For more details refer to Report.pdf
